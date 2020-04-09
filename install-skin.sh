@@ -6,6 +6,7 @@ skindir="/srv/web/ipfire/html/themes/dashboard"
 if [[ ! -d $skindir ]]; then mkdir -p $skindir; fi
 if [[ ! -d $skindir/images ]]; then mkdir -p $skindir/images; fi
 if [[ ! -d $skindir/include/css ]]; then mkdir -p $skindir/include/css; fi
+if [[ ! -d $skindir/include/database ]]; then mkdir -p $skindir/include/database; fi
 if [[ ! -d $skindir/include/js ]]; then mkdir -p $skindir/include/js; fi
 if [[ ! -d $skindir/include/webfonts ]]; then mkdir -p $skindir/include/webfonts; fi
 
